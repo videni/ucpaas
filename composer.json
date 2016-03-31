@@ -1,0 +1,26 @@
+{
+    "name": "ucpaas/ucpaas-php",
+    "type": "project",
+    "description": "ucpaas sdk php",
+    "keywords": ["sms"],
+    "homepage": "http://ucpaas.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "your name",
+            "email": "your email"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+
+    "autoload": {
+      "files": ["lib/Ucpaas.class.php"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
